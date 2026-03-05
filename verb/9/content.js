@@ -1,0 +1,27 @@
+var lessonNumber = 9;var lessonTitle = "Gehen (To go) - Future/Conditional";var forExamples = ["wir werden gehen","<strong>Wir werden</strong> in den Park <strong>gehen</strong>, um Spaß zu haben.","sie wird gehen","Nach ihren Hausaufgaben <strong>wird sie gehen</strong>, um fernzusehen.","ich werde gehen","Wenn ich fertig mit Blumenpflücken bin, <strong>werde</strong> <em>ich</em> nach Hause <strong>gehen</strong>.","du würdest gehen","Wenn du nicht krank wärst, <strong>würdest</strong> <em>du</em> in die Schule <strong>gehen</strong>.","ich würde gehen","Wenn ich nicht müde wäre, <strong>würde</strong> <em>ich</em> ins Einkaufszentrum <strong>gehen</strong>.","wir würden gehen","Wenn es draußen schöner wäre, <strong>würden</strong> <em>wir</em> in den Park <strong>gehen</strong>."];var engExamples = ["we will go","<em>We will go</em> have fun in the park.","she will go","<em>She will go</em> watch television after her homework.","I will go","<em>I will go</em> home, when I am done picking flowers.","you would go","If you weren't sick, <em>you would go</em> to school.","I would go","If I weren't tired, <em>I would go</em> to the mall.","we would go","If it were nicer outside, <em>we would go</em> to the park."];var btnColor = ["#0066FF","#00025B"];
+
+var forConj1 = ["ich geh<strong>e</strong>","du geh<strong>st</strong>","er/sie/es geh<strong>t</strong>","wir geh<strong>e</strong><strong>n</strong>","ihr geh<strong>t</strong>","Sie geh<strong>e</strong><strong>n</strong>","sie geh<strong>e</strong><strong>n</strong>"];
+var quizConj1 = ["gehe","gehst","geht","gehen","geht","gehen"];
+
+var forConj2 = ["ich bin <strong>ge</strong>g<em>ang</em><strong>en</strong>","du bist <strong>ge</strong>g<em>ang</em><strong>en</strong>","er/sie/es ist <strong>ge</strong>g<em>ang</em><strong>en</strong>","wir sind <strong>ge</strong>g<em>ang</em><strong>en</strong>","ihr seid <strong>ge</strong>g<em>ang</em><strong>en</strong>","Sie sind <strong>ge</strong>g<em>ang</em><strong>en</strong>","sie sind <strong>ge</strong>g<em>ang</em><strong>en</strong>"];
+var quizConj2 = ["bin gegangen","bist gegangen","ist gegangen","sind gegangen","seid gegangen","sind gegangen"];
+
+var forConj3 = ["ich g<em>ing</em>","du g<em>ing</em><strong>st</strong>","er/sie/es g<em>ing</em>","wir g<em>ing</em><strong>en</strong>","ihr g<em>ing</em><strong>t</strong>","Sie g<em>ing</em><strong>en</strong>","sie g<em>ing</em><strong>en</strong>"];
+var quizConj3 = ["ging","gingst","ging","gingen","gingt","gingen"];
+
+var forConj4 = ["ich werde geh<strong>e</strong><strong>n</strong>","du wirst geh<strong>e</strong><strong>n</strong>","er/sie/es wird geh<strong>e</strong><strong>n</strong>","wir werden geh<strong>e</strong><strong>n</strong>","ihr werdet geh<strong>e</strong><strong>n</strong>","Sie werden geh<strong>e</strong><strong>n</strong>","sie werden geh<strong>e</strong><strong>n</strong>"];
+var quizConj4 = ["werde gehen","wirst gehen","wird gehen","werden gehen","werdet gehen","werden gehen"];
+
+var forConj5 = ["ich würde geh<strong>e</strong><strong>n</strong>","du würdest geh<strong>e</strong><strong>n</strong>","er/sie/es würde geh<strong>e</strong><strong>n</strong>","wir würden geh<strong>e</strong><strong>n</strong>","ihr würdet geh<strong>e</strong><strong>n</strong>","Sie würden geh<strong>e</strong><strong>n</strong>","sie würden geh<strong>e</strong><strong>n</strong>"];
+var quizConj5 = ["würde gehen","würdest gehen","würde gehen","würden gehen","würdet gehen","würden gehen"];
+
+var engConj1  = ["I go / am going","you go / are going (informal)","he/she/it goes / is going","we go / are going","you go/ are going (plural)","you go / are going (formal)","they go / are going"];
+var engConj2  = ["I went","you went (informal)","he/she/it went","we went","you went (plural)","you went (formal)","they went"];
+var engConj3  = ["I was going","you were going (informal)","he/she/it was going","we were going","you were going (plural)","you were going (formal)","they were going"];
+var engConj4  = ["I will go","you will go (informal)","he/she/it will go","we will go","you will go (plural)","you will go (formal)","they will go"];
+var engConj5  = ["I would go","you would go (informal)","he/she/it would go","we would go","you would go (plural)","you would go (formal)","they would go"];
+
+var verbTypeNum = "7";var forConj6 = "Sein";var forConj7 = "G";var pronominal = false;var conjNum = [4,4,4,4,4,4,5,5,5,5,5,5];
+
+var irregReason = ['This verb is strong because the e in the stem changes to an "i" or an "a" in some of the conjugation. The "h" also changes to "ng" in some of the conjugation. The changes are shown in black in this lesson.'];
+var quizForExamples = ["<strong>Wir werden</strong> auf eine Reise <em>gehen</em>!","<strong>Ich werde</strong> Baseball spielen <strong>gehen</strong>.","Wenn du deine Flugtickets nicht verloren hättest, <strong>würdest</strong> <em>du</em> zum Flughafen <em>gehen</em>.","Wenn ich nicht so ängstlich wäre, <strong>würde</strong> <em>ich</em> zum Zahnarzt <strong>gehen</strong>."];var quizEngExamples = ["<em>We will go</em> on a trip!","<em>I will go</em> play baseball.","If you hadn't lost your plane tickets, <em>you would go</em> to the airport.","If I weren't so scared, <em>I would go</em> to the dentist."];

@@ -1,0 +1,29 @@
+var lessonNumber = 16;var lessonTitle = "Müssen (To have to / Must)";var forExamples = ["Müssen","<strong>Ich muss</strong> bei der Besprechung anwesend sein.","ich muss","<strong>Ich muss</strong> früh aufstehen.","ich muss","<strong>Ich muss</strong> mir meine Zähne putzen.","du musst","<strong>Du musst</strong> deine Mahlzeit essen.","du musst","<strong>Du musst</strong> die Pflanzen gießen.","er muss","<strong>Er muss</strong> sich rasieren.","sie muss","<strong>Sie muss</strong> den Bericht schreiben.","wir müssen","<strong>Wir müssen</strong> die Blätter aufsammeln.","wir müssen","<strong>Wir müssen</strong> das Abendessen zubereiten.","ihr müsst","<strong>Ihr müsst</strong> die Flaschen recyceln.","ihr müsst","<strong>Ihr müsst</strong> eure Hausaufgaben machen.","Sie müssen","<strong>Sie müssen</strong> jetzt arbeiten.","sie müssen","<strong>Sie müssen</strong> die Wand streichen.","sie müssen","<strong>Sie müssen</strong> etwas Obst kaufen."];var engExamples = ["To have to / Must","<em>I must</em> be present at the meeting.","I must","<em>I must</em> wake up early.","I must","<em>I must</em> brush my teeth.","you must","<em>You must</em> eat your meal.","you must","<em>You must</em> water the plants.","he must","<em>He must</em> shave.","she must","<em>She must</em> write the report.","we must","<em>We must</em> pick up the leaves.","we must","<em>We must</em> prepare supper.","you must","<em>You must</em> recycle the bottles.","you must","<em>You must</em> do your homework.","you must","<em>You must</em> work now.","they must","<em>They must</em> paint the wall.","they must","<em>They must</em> buy some fruit."];var btnColor = ["#1EEC00","#163F00"];
+
+var forConj1 = ["ich m<em>u</em>ss","du m<em>u</em>ss<strong>t</strong>","er/sie/es m<em>u</em>ss","wir müss<strong>en</strong>","ihr müss<strong>t</strong>","Sie müss<strong>en</strong>","sie müss<strong>en</strong>"];
+var quizConj1 = ["muss","musst","muss","müssen","müsst","müssen"];
+
+var forConj2 = ["ich habe <strong>ge</strong>m<em>u</em>ss<strong>t</strong>","du hast <strong>ge</strong>m<em>u</em>ss<strong>t</strong>","er/sie/es hat <strong>ge</strong>m<em>u</em>ss<strong>t</strong>","wir haben <strong>ge</strong>m<em>u</em>ss<strong>t</strong>","ihr habt <strong>ge</strong>m<em>u</em>ss<strong>t</strong>","Sie haben <strong>ge</strong>m<em>u</em>ss<strong>t</strong>","sie haben <strong>ge</strong>m<em>u</em>ss<strong>t</strong>"];
+var quizConj2 = ["habe gemusst","hast gemusst","hat gemusst","haben gemusst","habt gemusst","haben gemusst"];
+
+var forConj3 = ["ich m<em>u</em>ss<strong>te</strong>","du m<em>u</em>ss<strong>test</strong>","er/sie/es m<em>u</em>ss<strong>te</strong>","wir m<em>u</em>ss<strong>ten</strong>","ihr m<em>u</em>ss<strong>tet</strong>","Sie m<em>u</em>ss<strong>ten</strong>","sie m<em>u</em>ss<strong>ten</strong>"];
+var quizConj3 = ["musste","musstest","musste","mussten","musstet","mussten"];
+
+var forConj4 = ["ich werde müss<strong>en</strong>","du wirst müss<strong>en</strong>","er/sie/es wird müss<strong>en</strong>","wir werden müss<strong>en</strong>","ihr werdet müss<strong>en</strong>","Sie werden müss<strong>en</strong>","sie werden müss<strong>en</strong>"];
+var quizConj4 = ["werde müssen","wirst müssen","wird müssen","werden müssen","werdet müssen","werden müssen"];
+
+var forConj5 = ["ich würde müss<strong>en</strong>","du würdest müss<strong>en</strong>","er/sie/es würde müss<strong>en</strong>","wir würden müss<strong>en</strong>","ihr würdet müss<strong>en</strong>","Sie würden müss<strong>en</strong>","sie würden müss<strong>en</strong>"];
+var quizConj5 = ["würde müssen","würdest müssen","würde müssen","würden müssen","würdet müssen","würden müssen"];
+
+var engConj1  = ["I must","you must (informal)","he/she/it must","we must","you must (plural)","you must (formal)","they must"];
+var engConj2  = ["I had to","you had to (informal)","he/she/it had to","we had to","you had to (plural)","you had to (formal)","they had to"];
+var engConj3  = ["I was having to","you were having to (informal)","he/she/it was having to","we were having to","you were having to (plural)","you were having to (formal)","they were having to"];
+var engConj4  = ["I will have to","you will have to (informal)","he/she/it will have to","we will have to","you will have to (plural)","you will have to (formal)","they will have to"];
+var engConj5  = ["I would have to","you would have to (informal)","he/she/it would have to","we would have to","you would have to (plural)","you would have to (formal)","they would have to"];
+
+var verbTypeNum = "3";var forConj6 = "Haben";var forConj7 = "M_ss";var pronominal = false;var conjNum = [0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+
+var irregReason = [''];
+var quizForExamples = ["<strong>Ich muss</strong> den Rasen mähen.","<strong>Du musst</strong> das Auto waschen.","<strong>Er muss</strong> die richtige Leitung finden.","<strong>Wir müssen</strong> das Geschirr spülen.","<strong>Sie müssen</strong> eine Lösung finden.","<strong>Sie müssen</strong> das Problem verstehen."];var quizEngExamples = ["<em>I must</em> mow the lawn.","<em>You must</em> wash the car.","<em>He must</em> find the right wire.","<em>We must</em> clean the dishes.","<em>You must</em> find a solution.","<em>They must</em> understand the problem."];
+
+var extraNote = "In German, both <strong>müssen</strong> and <strong>sollen</strong> mean ''to have to''. There are interchangeable in some cases, but they are slightly different in meaning. <br><br><strong>Müssen</strong> means that the action <strong>must</strong> be completed. In many cases, it is used when someone, yourself or a situation is pushing the action to be done.<br><br> <strong>Sollen</strong> is used when the action <strong>should</strong> be completed. In many cases, it is something that should be done because it feels like the right thing to do, but it is not a total obligation by something or someone.";

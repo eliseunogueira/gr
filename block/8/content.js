@@ -1,0 +1,12 @@
+var quizLessonBoth = "quiz";
+var lessonNumber = 8;
+var lessonTitle = "Der Plural (The plural)";
+var btnColor = ["#FFEE00","#B83D00","#FFC400","#BB0A00"];
+////INCLUDE NUMBER IN LIST BELOW TO REMOVE QUESTION
+var quesToRemove = [25,26,27,28];
+////LESSON CONTENT BELOW
+
+var forExamples1 = ["Der Bruder / Die Br<strong>ü</strong>der","Die Mutter / Die M<strong>ü</strong>tter","Der Boden / Die B<strong>ö</strong>den","Die Tochter / Die T<strong>ö</strong>chter","Der Hund / Die Hund<strong>e</strong>","Der Tisch / Die Tisch<strong>e</strong>","Das Problem / Die Problem<strong>e</strong>","Der Stuhl / Die St<em>ü</em>hl<strong>e</strong>","Der Bauch / Die B<em>ä</em>uch<strong>e</strong>","Die Hand / Die H<em>ä</em>nd<strong>e</strong>","Das Kind / Die Kind<strong>er</strong>","Das Gesicht / Die Gesicht<strong>er</strong>","Das Kleid / Die Kleid<strong>er</strong>","Der Mann / Die M<em>ä</em>nn<strong>er</strong>","Das Rad / Die R<em>ä</em>d<strong>er</strong>","Das Haus / Die H<em>ä</em>us<strong>er</strong>","Der Mund / Die M<em>ü</em>nd<strong>er</strong>"];var engExamples1 = ["The brother / The brothers","The mother / The mothers","The floor / The floors","The daughter / The daughters","The dog / The dogs","The table / The tables","The problem / The problems","The chair / The chairs","The belly / The bellies","The hand / The hands","The child / The children","The face / The faces","The dress / The dresses","The man / The men","The bike / The bikes","The house / The houses","The mouth / The mouths"];
+
+
+var forExamples2 = ["Das Auge / Die Auge<strong>n</strong>","Die Blume / Die Blume<strong>n</strong>","Die Brille / Die Brille<strong>n</strong>","Der Junge / Die Junge<strong>n</strong>","Die Frau / Die Frau<strong>en</strong>","Die Antwort / Die Antwort<strong>en</strong>","Der Student / Die Student<strong>en</strong>","Die Universität / Die Universität<strong>en</strong>","Das Zimmer / Die Zimmer","Der Wagen / Die Wagen","Der Musiker / Die Musiker","Das Semester / Die Semester"];var engExamples2 = ["The eye / The eyes ","The flower / The flowers","The glasses","The boy / The boys","The woman / The women","The answer / The answers","The students / The students","The university / The universities","The room / The rooms","The vehicle / The vehicles","The musician / The musicians","The semester / The semesters"];

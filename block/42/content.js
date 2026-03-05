@@ -1,0 +1,22 @@
+var quizLessonBoth = "lesson";var lessonNumber = 42;var numOfAllQuiz = 44;var lessonTitle = "Personalpronomen: Akkusativ - Part II (Accusative personal pronouns)";var btnColor = ["#00BFFF","#001E51","#0066FF","#00025B"];var quesToRemove = [];var startNarration = [];var narration = ["","",""];var forTitles = ["dich","Sie","euch"];var engTitles = ["you (informal)","you (formal)","you (plural)"];var forSideTitles = forTitles;var engSideTitles = engTitles;var titleSkip = [false,false,false,false,false];var exampleNums = [4,3,5];
+
+
+var forExamples = ["Der Brief ist für <strong>dich</strong>.","All diese Geschenke sind für <strong>dich</strong>.","Diese Information ist für <strong>dich</strong>.","Ich liebe <strong>dich</strong>!","Ich werde <strong>Sie</strong> morgen anrufen.","Wir hätten es ohne <strong>Sie</strong> nicht machen können.","Sie werden <strong>Sie</strong> vermissen.","Ich kann die Arbeit nicht ohne <strong>euch</strong> beenden.","Ich freue mich darauf, <strong>euch</strong> wiederzusehen.","Ich mache Essen für <strong>euch</strong>.","Ich glaube an <strong>euch</strong>.","Dieser Kuchen ist für <strong>euch</strong>."];
+
+
+var engExamples = ["The letter is for <em>you</em>. (informal / ''für'' is accusative)","All these gifts are for <em>you</em>. (informal / ''für'' is accusative)","This information is for <em>you</em>. (informal / ''für'' is accusative)","I love <em>you</em>! (informal)","I will call <em>you</em> tomorrow. (formal)","We couldn't have done it without <em>you</em>. (formal / ''ohne'' is accusative)","They will miss <em>you</em>. (formal)","I can't finish the work without <em>you</em>. (plural / ''ohne'' is accusative)","I am looking forward to seeing <em>you</em> again. (plural)","I am making dinner for <em>you</em>. (plural / ''für'' is accusative)","I have faith in <em>you</em>. (plural / accusative)","This cake is for <em>you</em>. (plural / ''für'' is accusative)"];
+
+
+var forExtra1 = ["Das ist für <strong>dich</strong>!","Ich liebe <strong>dich</strong> auch.","Es ist schön <strong>dich</strong> zu sehen!","Kann ich <strong>dich</strong> nach Hause fahren?","Ich liebe es, <strong>dich</strong> lächeln zu sehen.","Ja, Jan. Was kann ich für <strong>dich</strong> tun?","Ich fing den Film ohne <strong>dich</strong> an.","Falls ich <strong>dich</strong> störe, sage es mir..."];
+
+
+var engExtra1 = ["This is for <em>you</em>! (informal / ''für'' is accusative)","I love <em>you</em> too. (informal)","It's nice to see <em>you</em>! (informal)","Can I drive <em>you</em> home? (informal)","I love to see <em>you</em> smile. (informal)","Yes, Jan. What can I do for <em>you</em>? (informal / ''für'' is accusative)","I started the movie without <em>you</em>. (informal / ''ohne'' is accusative)","If I am bothering <em>you</em>, just say so... (informal)"];
+
+
+var imageExtra1 = ["../../block/20/images/pic1.jpg","../../vocab/77/images/pic6.jpg","../../convo/images/convo3A.jpg","../../convo/images/convo40A.jpg","../../verb/97/images/pic1.jpg","../../convo/images/convo61B.jpg","../../verb/98/images/pic4.jpg","../../convo/images/convo4B.jpg"];var fastExtra1 = ["../../block/20/sounds/sound1","../../vocab/77/sounds/sound3","../../convo/3/sounds/1fast2","../../convo/40/sounds/1fast10","../../verb/97/sounds/sound3","../../convo/61/sounds/2fast1","../../verb/98/sounds/sound15","../../convo/4/sounds/2fast8"];var slowExtra1 = ["../../block/20/sounds/sound2","../../vocab/77/sounds/sound4","../../convo/3/sounds/1slow2","../../convo/40/sounds/1slow10","../../verb/97/sounds/sound4","../../convo/61/sounds/2slow1","../../verb/98/sounds/sound16","../../convo/4/sounds/2slow8"];
+
+var forExtra2 = ["Hallo, was kann ich für <strong>Sie</strong> tun?","Kann ich noch etwas für <strong>Sie</strong> tun?","Ich heiße Renate Hoffmann, und <strong>Sie</strong>?"];
+
+var engExtra2 = ["Hello, what can I do for <em>you</em>? (formal / ''für'' is accusative)","Can I do something else for <em>you</em>? (formal / ''für'' is accusative)","My name is Renate Hoffmann, and <em>you</em>? (formal)"];
+
+var imageExtra2 = ["../../convo/images/convo48A.jpg","../../convo/images/convo19A.jpg","../../convo/images/convo1B.jpg"];var fastExtra2 = ["../../convo/48/sounds/1fast1","../../convo/19/sounds/1fast5","../../convo/1/sounds/2fast3"];var slowExtra2 = ["../../convo/48/sounds/1slow1","../../convo/19/sounds/1slow5","../../convo/1/sounds/2slow3"];

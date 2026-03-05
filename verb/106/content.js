@@ -1,0 +1,27 @@
+var lessonNumber = 106;var lessonTitle = "Denken / Nachdenken (To think / To ponder)";var forExamples = ["Denken","%''Nach'' is added to ''Denken'' when it is the equivalent of ''to think it over'', or ''to ponder''. When it is more about thinking about something carefully, rather than a quick thought or opinion.%Ich muss darüber nach<strong>denken</strong>.","ich denke","<strong>Ich denke</strong>, dass ich Hilfe brauche.","du hast gedacht","%''Nach'' is added to ''Denken'' when it is the equivalent of ''to think it over'', or ''to ponder''.%<strong>Du hast</strong> den ganzen Tag darüber nach<strong>gedacht</strong>.","sie dachte","<strong>Sie dachte</strong> über etwas nach und lächelte.","du wirst denken","<strong>Du wirst</strong> an deine Kinder <strong>denken</strong>, wenn du diese Fotos ansiehst.","wir würden denken","Wenn ihr uns verlassen würdet, <strong>würden wir</strong> immer an euch <strong>denken</strong>."];var engExamples = ["To think","I must <em>think</em> about it.","I think","<em>I think</em> that I need help.","you thought","<em>You thought</em> about that all day.","she was thinking","<em>She was thinking</em> about something and smiled.","you will think","<em>You will think</em> about your children when you look at these photos.","we would think","If you left us, <em>we would</em> always <em>think</em> about you."];var btnColor = ["#00BFFF","#001E51"];
+
+var forConj1 = ["ich denk<strong>e</strong> (nach)","du denk<strong>st</strong> (nach)","er/sie/es denk<strong>t</strong> (nach)","wir denk<strong>en</strong> (nach)","ihr denk<strong>t</strong> (nach)","Sie denk<strong>en</strong> (nach)","sie denk<strong>en</strong> (nach)"];
+var quizConj1 = ["denke (nach)","denkst (nach)","denkt (nach)","denken (nach)","denkt (nach)","denken (nach)"];
+
+var forConj2 = ["ich habe (nach)<strong>ge</strong>d<em>ach</em><strong>t</strong>","du hast (nach)<strong>ge</strong>d<em>ach</em><strong>t</strong>","er/sie/es hat (nach)<strong>ge</strong>d<em>ach</em><strong>t</strong>","wir haben (nach)<strong>ge</strong>d<em>ach</em><strong>t</strong>","ihr habt (nach)<strong>ge</strong>d<em>ach</em><strong>t</strong>","Sie haben (nach)<strong>ge</strong>d<em>ach</em><strong>t</strong>","sie haben (nach)<strong>ge</strong>d<em>ach</em><strong>t</strong>"];
+var quizConj2 = ["habe (nach)gedacht","hast (nach)gedacht","hat (nach)gedacht","haben (nach)gedacht","habt (nach)gedacht","haben (nach)gedacht"];
+
+var forConj3 = ["ich d<em>ach</em><strong>te</strong> (nach)","du d<em>ach</em><strong>test</strong> (nach)","er/sie/es d<em>ach</em><strong>te</strong> (nach)","wir d<em>ach</em><strong>ten</strong> (nach)","ihr d<em>ach</em><strong>tet</strong> (nach)","Sie d<em>ach</em><strong>ten</strong> (nach)","sie d<em>ach</em><strong>ten</strong> (nach)"];
+var quizConj3 = ["dachte (nach)","dachtest (nach)","dachte (nach)","dachten (nach)","dachtet (nach)","dachten (nach)"];
+
+var forConj4 = ["ich werde (nach)denk<strong>en</strong>","du wirst (nach)denk<strong>en</strong>","er/sie/es wird (nach)denk<strong>en</strong>","wir werden (nach)denk<strong>en</strong>","ihr werdet (nach)denk<strong>en</strong>","Sie werden (nach)denk<strong>en</strong>","sie werden (nach)denk<strong>en</strong>"];
+var quizConj4 = ["werde (nach)denken","wirst (nach)denken","wird (nach)denken","werden (nach)denken","werdet (nach)denken","werden (nach)denken"];
+
+var forConj5 = ["ich würde (nach)denk<strong>en</strong>","du würdest (nach)denk<strong>en</strong>","er/sie/es würde (nach)denk<strong>en</strong>","wir würden (nach)denk<strong>en</strong>","ihr würdet (nach)denk<strong>en</strong>","Sie würden (nach)denk<strong>en</strong>","sie würden (nach)denk<strong>en</strong>"];
+var quizConj5 = ["würde (nach)denken","würdest (nach)denken","würde (nach)denken","würden (nach)denken","würdet (nach)denken","würden (nach)denken"];
+
+var engConj1  = ["I think","you think (informal)","he/she/it thinks","we think","you think (plural)","you think (formal)","they think"];
+var engConj2  = ["I thought","you thought (informal)","he/she/it thought","we thought","you thought (plural)","you thought (formal)","they thought"];
+var engConj3  = ["I was thinking","you were thinking (informal)","he/she/it was thinking","we were thinking","you were thinking (plural)","you were thinking (formal)","they were thinking"];
+var engConj4  = ["I will think","you will think (informal)","he/she/it will think","we will think","you will think (plural)","you will think (formal)","they will think"];
+var engConj5  = ["I would think","you would think (informal)","he/she/it would think","we would think","you would think (plural)","you would think (formal)","they would think"];
+
+var verbTypeNum = "4";var forConj6 = "Haben";var forConj7 = "D";var pronominal = false;var conjNum = [0,0,1,1,2,2,3,3,4,4,5,5];
+
+var irregReason = ['This verb is mixed because the "enk" in the stem changes to "ach" in the past tenses of the conjugation. The changes are shown in black in this lesson.'];
+var extraNote = '"Nach" is added to "Denken" when it is the equivalent of "to think it over", or "to ponder". When it is more about thinking about something carefully, rather than a quick thought or opinion.';

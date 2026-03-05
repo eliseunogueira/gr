@@ -1,0 +1,258 @@
+%!Adobe-FontList 1.17
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BuiltTitlingRg-Bold
+FamilyName:Built Titling
+StyleName:Bold
+FullName:BuiltTitlingRg-Bold
+MenuName:Built Titling Rg
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\built-titling-bd.ttf
+DataFormat:sfntData
+FileLength:86860
+FileModTime:1557428429
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,BuiltTitlingRg-Bold
+NameArray:0,Win,1,Built Titling Rg
+NameArray:0,Win,16,Built Titling
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BuiltTitlingSb-Regular
+FamilyName:Built Titling
+StyleName:SemiBold
+FullName:BuiltTitlingSb-Regular
+MenuName:Built Titling Sb
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\built-titling-sb.ttf
+DataFormat:sfntData
+FileLength:85064
+FileModTime:1557428429
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,BuiltTitlingSb-Regular
+NameArray:0,Win,1,Built Titling Sb
+NameArray:0,Win,16,Built Titling
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\chawpwebfont.woff
+FileModTime:1412292764
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\encode-sans.condensed-bold.woff
+FileModTime:1412292764
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\encode-sans.condensed-extralight.woff
+FileModTime:1412292764
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\encode-sans.condensed-medium.woff
+FileModTime:1412292764
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Handlee-Regular
+FamilyName:Handlee
+StyleName:Regular
+FullName:Handlee Regular
+MenuName:Handlee
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\Handlee-Regular.ttf
+DataFormat:sfntData
+FileLength:39132
+FileModTime:1412292764
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Handlee Regular
+NameArray:0,Win,1,Handlee
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\Macondo.woff
+FileModTime:1424441752
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\mclaren.regular.woff
+FileModTime:1412292764
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Regular
+FamilyName:Montserrat
+StyleName:Regular
+FullName:Montserrat Regular
+MenuName:Montserrat
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\Montserrat-Regular.ttf
+DataFormat:sfntData
+FileLength:263192
+FileModTime:1538418715
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Montserrat Regular
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\OpenSans.ttf
+DataFormat:sfntData
+FileLength:171676
+FileModTime:1535118862
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Roboto
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSansCondensed-Bold
+FamilyName:Open Sans Condensed
+StyleName:Bold
+FullName:Open Sans Condensed Bold
+MenuName:Open Sans Condensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\OpenSansBold.ttf
+DataFormat:sfntData
+FileLength:264856
+FileModTime:1539541168
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Open Sans Condensed Bold
+NameArray:0,Win,1,Open Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+FullName:Roboto Bold
+MenuName:Roboto
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\Roboto-Bold.ttf
+DataFormat:sfntData
+FileLength:170760
+FileModTime:1535118862
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Italic
+FamilyName:Roboto
+StyleName:Italic
+FullName:Roboto Italic
+MenuName:Roboto
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\Roboto-Italic.ttf
+DataFormat:sfntData
+FileLength:173932
+FileModTime:1536082861
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Roboto Italic
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+FullName:Roboto Light
+MenuName:Roboto Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\Roboto-Light.ttf
+DataFormat:sfntData
+FileLength:170420
+FileModTime:1535118862
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Roboto Light
+NameArray:0,Win,1,Roboto Light
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\studi\Dropbox\Ouino 2019\TESTER\Font\Roboto-Regular.ttf
+DataFormat:sfntData
+FileLength:171676
+FileModTime:1535118862
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Roboto
+NameArray:0,Win,1,Roboto
+%EndFont
+

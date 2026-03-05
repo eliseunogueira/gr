@@ -1,0 +1,27 @@
+var lessonNumber = 88;var lessonTitle = "(sich) Ausruhen (To rest)";var forExamples = ["(sich) Ausruhen",'%When the verb is separable, the word "zu" can be placed in between the two parts of the verb, there is more information on the "zu" construction in the building blocks section.%Sie nahmen sich einen Tag frei, um <em>sich aus</em>zu<strong>ruhen</strong>.',"wir ruhen (uns) aus","<strong>Wir</strong> <strong>ruhen</strong> <em>uns</em> auf dem Feld <em>aus</em>.","sie hat (sich) ausgeruht","<em>Sie hat sich</em> draußen in der Hängematte <strong>ausgeruht</strong>.","ich ruhte (mich) aus","<strong>Ich ruhte</strong> <em>mich</em> auf einer Luftmatratze <em>aus</em>.","sie werden (sich) ausruhen","<strong>Sie werden</strong> <em>sich</em> dieses Wochenende in ihrem Zelt <strong>ausruhen</strong>.","du würdest (dich) ausruhen","Wenn du weniger Arbeit hättest, <strong>würdest</strong> <em>du dich</em> ein wenig <strong>ausruhen</strong>."];var engExamples = ["To rest","They took a day off <em>to rest</em>.","we are resting","<em>We are resting</em> in the field.","she rested","<em>She rested</em> in the hammock outside.","I was resting","<em>I was resting</em> on an inflatable mattress.","they will rest","<em>They will rest</em> in their tent this weekend.","you would rest","If you had less work, <em>you would rest</em> a little."];var btnColor = ["#1EEC00","#163F00"];
+
+var forConj1 = ["ich ruh<strong>e</strong> mich aus","du ruh<strong>st</strong> dich aus","er/sie/es ruh<strong>t</strong> sich aus","wir ruh<strong>e</strong><strong>n</strong> uns aus","ihr ruh<strong>t</strong> euch aus","Sie ruh<strong>e</strong><strong>n</strong> sich aus","sie ruh<strong>e</strong><strong>n</strong> sich aus"];
+var quizConj1 = ["ruhe mich aus","ruhst dich aus","ruht sich aus","ruhen uns aus","ruht euch aus","ruhen sich aus"];
+
+var forConj2 = ["ich habe mich aus<strong>ge</strong>ruh<strong>t</strong>","du hast dich aus<strong>ge</strong>ruh<strong>t</strong>","er/sie/es hat sich aus<strong>ge</strong>ruh<strong>t</strong>","wir haben uns aus<strong>ge</strong>ruh<strong>t</strong>","ihr habt euch aus<strong>ge</strong>ruh<strong>t</strong>","Sie haben sich aus<strong>ge</strong>ruh<strong>t</strong>","sie haben sich aus<strong>ge</strong>ruh<strong>t</strong>"];
+var quizConj2 = ["habe mich ausgeruht","hast dich ausgeruht","hat sich ausgeruht","haben uns ausgeruht","habt euch ausgeruht","haben sich ausgeruht"];
+
+var forConj3 = ["ich ruh<strong>te</strong> mich aus","du ruh<strong>test</strong> dich aus","er/sie/es ruh<strong>te</strong> sich aus","wir ruh<strong>ten</strong> uns aus","ihr ruh<strong>tet</strong> euch aus","Sie ruh<strong>ten</strong> sich aus","sie ruh<strong>ten</strong> sich aus"];
+var quizConj3 = ["ruhte mich aus","ruhtest dich aus","ruhte sich aus","ruhten uns aus","ruhtet euch aus","ruhten sich aus"];
+
+var forConj4 = ["ich werde mich ausruh<strong>e</strong><strong>n</strong>","du wirst dich ausruh<strong>e</strong><strong>n</strong>","er/sie/es wird sich ausruh<strong>e</strong><strong>n</strong>","wir werden uns ausruh<strong>e</strong><strong>n</strong>","ihr werdet euch ausruh<strong>e</strong><strong>n</strong>","Sie werden sich ausruh<strong>e</strong><strong>n</strong>","sie werden sich ausruh<strong>e</strong><strong>n</strong>"];
+var quizConj4 = ["werde mich ausruhen","wirst dich ausruhen","wird sich ausruhen","werden uns ausruhen","werdet euch ausruhen","werden sich ausruhen"];
+
+var forConj5 = ["ich würde mich ausruh<strong>e</strong><strong>n</strong>","du würdest dich ausruh<strong>e</strong><strong>n</strong>","er/sie/es würde sich ausruh<strong>e</strong><strong>n</strong>","wir würden uns ausruh<strong>e</strong><strong>n</strong>","ihr würdet euch ausruh<strong>e</strong><strong>n</strong>","Sie würden sich ausruh<strong>e</strong><strong>n</strong>","sie würden sich ausruh<strong>e</strong><strong>n</strong>"];
+var quizConj5 = ["würde mich ausruhen","würdest dich ausruhen","würde sich ausruhen","würden uns ausruhen","würdet euch ausruhen","würden sich ausruhen"];
+
+var engConj1  = ["I am resting","you are resting (informal)","he/she/it is resting","we are resting","you are resting (plural)","you are resting (formal)","they are resting"];
+var engConj2  = ["I rested","you rested (informal)","he/she/it rested","we rested","you rested (plural)","you rested (formal)","they rested"];
+var engConj3  = ["I was resting","you were resting (informal)","he/she/it was resting","we were resting","you were resting (plural)","you were resting (formal)","they were resting"];
+var engConj4  = ["I will rest","you will rest (informal)","he/she/it will rest","we will rest","you will rest (plural)","you will rest (formal)","they will rest"];
+var engConj5  = ["I would rest","you would rest (informal)","he/she/it would rest","we would rest","you would rest (plural)","you would rest (formal)","they would rest"];
+
+var verbTypeNum = "1";var forConj6 = "Haben";var forConj7 = "(sich) Ausruh";var pronominal = true;var conjNum = [0,0,1,1,2,2,3,3,4,4,5,5];
+
+var irregReason = [''];
+var extraNote = 'Some German verbs have separable prefixes. The prefixes change the meaning of the original verb. In some of the conjugation, they are separated from the verb and placed at the end of the sentence. The conjugation itself remains the same.<br><br>E.G. Kommen = To come<br><em style=”opacity: 0;”>E.G.</em> <strong>An</strong>kommen = To arrive';

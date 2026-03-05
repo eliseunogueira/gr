@@ -1,0 +1,27 @@
+var lessonNumber = 13;var lessonTitle = "Wollen (To want)";var forExamples = ["Wollen","Manchmal ist es wichtig, etwas anderes machen zu <strong>wollen</strong>.","ich will","<strong>Ich will</strong> mein Gemüse nicht essen.","ich will","<strong>Ich will</strong> weiter einkaufen.","du willst","<strong>Willst</strong> <em>du</em> ein Profispieler werden?","du willst","Schau dorthin, wenn <strong>du</strong> die Wale sehen <strong>willst</strong>.","er will","<strong>Er will</strong> seiner Mutter beim Kochen helfen.","sie will","<strong>Sie will</strong> aus ihrer Krippe heraus.","wir wollen","<strong>Wir wollen</strong> wirklich dieses Videospiel-Turnier gewinnen.","wir wollen","<strong>Wir wollen</strong> nicht ins Bett gehen.","ihr wollt","Wohin <strong>wollt</strong> <em>ihr</em> gehen?","ihr wollt","<strong>Ihr wollt</strong> einen Kuchen backen.","Sie wollen","<strong>Sie wollen</strong> mit ihnen Geschäfte machen.","sie wollen","<strong>Sie wollen</strong> Fußball spielen.","sie wollen","<strong>Sie wollen</strong> kein Obst."];var engExamples = ["To want ","Sometimes, it's important <em>to want</em> to do something different.","I want","<em>I</em> don't <em>want</em> to eat my vegetables.","I want","<em>I want</em> to keep shopping.","you want","Do <em>you want</em> to become a professional player?","you want","Look over there if <em>you want</em> to see the whales.","he wants","<em>He wants</em> to help his mother in the kitchen.","she wants","<em>She wants</em> to get out of her crib.","we want","<em>We</em> really <em>want</em> to win this video game tournament.","we want","<em>We</em> don't <em>want</em> to go to bed.","you want","Where do <em>you want</em> to go?","you want","<em>You want</em> to bake a cake.","you want","<em>You want</em> to do business with them.","they want","<em>They want</em> to play football.","they want","<em>They</em> don't <em>want</em> any fruit."];var btnColor = ["#00BFFF","#001E51"];
+
+var forConj1 = ["ich w<em>i</em>ll","du w<em>i</em>ll<strong>st</strong>","er/sie/es w<em>i</em>ll","wir woll<strong>en</strong>","ihr woll<strong>t</strong>","Sie woll<strong>en</strong>","sie woll<strong>en</strong>"];
+var quizConj1 = ["will","willst","will","wollen","wollt","wollen"];
+
+var forConj2 = ["ich habe <strong>ge</strong>woll<strong>t</strong>","du hast <strong>ge</strong>woll<strong>t</strong>","er/sie/es hat <strong>ge</strong>woll<strong>t</strong>","wir haben <strong>ge</strong>woll<strong>t</strong>","ihr habt <strong>ge</strong>woll<strong>t</strong>","Sie haben <strong>ge</strong>woll<strong>t</strong>","sie haben <strong>ge</strong>woll<strong>t</strong>"];
+var quizConj2 = ["habe gewollt","hast gewollt","hat gewollt","haben gewollt","habt gewollt","haben gewollt"];
+
+var forConj3 = ["ich woll<strong>te</strong>","du woll<strong>test</strong>","er/sie/es woll<strong>te</strong>","wir woll<strong>ten</strong>","ihr woll<strong>tet</strong>","Sie woll<strong>ten</strong>","sie woll<strong>ten</strong>"];
+var quizConj3 = ["wollte","wolltest","wollte","wollten","wolltet","wollten"];
+
+var forConj4 = ["ich werde woll<strong>en</strong>","du wirst woll<strong>en</strong>","er/sie/es wird woll<strong>en</strong>","wir werden woll<strong>en</strong>","ihr werdet woll<strong>en</strong>","Sie werden woll<strong>en</strong>","sie werden woll<strong>en</strong>"];
+var quizConj4 = ["werde wollen","wirst wollen","wird wollen","werden wollen","werdet wollen","werden wollen"];
+
+var forConj5 = ["ich würde woll<strong>en</strong>","du würdest woll<strong>en</strong>","er/sie/es würde woll<strong>en</strong>","wir würden woll<strong>en</strong>","ihr würdet woll<strong>en</strong>","Sie würden woll<strong>en</strong>","sie würden woll<strong>en</strong>"];
+var quizConj5 = ["würde wollen","würdest wollen","würde wollen","würden wollen","würdet wollen","würden wollen"];
+
+var engConj1  = ["I want","you want (informal)","he/she/it wants","we want","you want (plural)","you want (formal)","they want"];
+var engConj2  = ["I wanted","you wanted (informal)","he/she/it wanted","we wanted","you wanted (plural)","you wanted (formal)","they wanted"];
+var engConj3  = ["I was wanting","you were wanting (informal)","he/she/it was wanting","we were wanting","you were wanting (plural)","you were wanting (formal)","they were wanting"];
+var engConj4  = ["I will want","you will want (informal)","he/she/it will want","we will want","you will want (plural)","you will want (formal)","they will want"];
+var engConj5  = ["I would want","you would want (informal)","he/she/it would want","we would want","you would want (plural)","you would want (formal)","they would want"];
+
+var verbTypeNum = "3";var forConj6 = "Haben";var forConj7 = "W_ll";var pronominal = false;var conjNum = [0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+
+var irregReason = [''];
+var quizForExamples = ["<strong>Ich will</strong> eine große Sandburg bauen.","<strong>Willst</strong> <em>du</em> nach Hause gehen?","<strong>Sie will</strong> am Telefon sprechen.","<strong>Wir wollen</strong> dieses Problem lösen.","<strong>Ihr wollt</strong> heute Nacht die Sterne beobachten.","<strong>Sie wollen</strong> in Form bleiben."];var quizEngExamples = ["<em>I want</em> to build a big sand castle.","Do <em>you want</em> to go home?","<em>She wants</em> to talk on the phone.","<em>We want</em> to solve this problem.","<em>You want</em> to observe the stars tonight.","<em>They want</em> to stay in shape."];

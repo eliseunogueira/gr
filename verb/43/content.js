@@ -1,0 +1,27 @@
+var lessonNumber = 43;var lessonTitle = "Herauskommen (To come out)";var forExamples = ["Herauskommen","Es ist Zeit für dich, aus dem Karton zu <strong>herauskommen</strong>.","sie kommt heraus","<strong>Die Krabbe kommt</strong> aus der Seemuschel <em>heraus</em>.","wir sind herausgekommen","<strong>Wir sind</strong> seit Tagen nicht aus dem Haus <strong>herausgekommen</strong>.","es kam heraus","<strong>Licht kam</strong> aus ihrem Geschenk <strong>heraus</strong>, als sie die Schachtel öffnete.","wir werden herauskommen","<strong>Wir werden</strong> bei Sonnenuntergang <strong>herauskommen</strong>, weil wir Vampire sind.","sie würde herauskommen","Wenn das Wetter nicht so kalt wäre, <strong>würde sie</strong> aus dem Haus <strong>herauskommen</strong>."];var engExamples = ["To come out","It is time for you <em>to come out</em> of the box.","she comes out","<em>The crab comes out</em> of the seashell.","we have come out","<em>We have</em>n't <em>come out</em> of the house for days.","it came out","<em>Light came out</em> of her gift, when she opened the box.","we will come out","<em>We will come out</em> at sundown, because we are vampires.","she would come out","If the weather weren't so cold, <em>she would come out</em> of the house."];var btnColor = ["#90E700","#254800"];
+
+var forConj1 = ["ich komm<strong>e</strong> heraus","du komm<strong>st</strong> heraus","er/sie/es komm<strong>t</strong> heraus","wir komm<strong>en</strong> heraus","ihr komm<strong>t</strong> heraus","Sie komm<strong>en</strong> heraus","sie komm<strong>en</strong> heraus"];
+var quizConj1 = ["komme heraus","kommst heraus","kommt heraus","kommen heraus","kommt heraus","kommen heraus"];
+
+var forConj2 = ["ich bin heraus<strong>ge</strong>komm<strong>en</strong>","du bist heraus<strong>ge</strong>komm<strong>en</strong>","er/sie/es ist heraus<strong>ge</strong>komm<strong>en</strong>","wir sind heraus<strong>ge</strong>komm<strong>en</strong>","ihr seid heraus<strong>ge</strong>komm<strong>en</strong>","Sie sind heraus<strong>ge</strong>komm<strong>en</strong>","sie sind heraus<strong>ge</strong>komm<strong>en</strong>"];
+var quizConj2 = ["bin herausgekommen","bist herausgekommen","ist herausgekommen","sind herausgekommen","seid herausgekommen","sind herausgekommen"];
+
+var forConj3 = ["ich k<em>am</em> heraus","du k<em>am</em><strong>st</strong> heraus","er/sie/es k<em>am</em> heraus","wir k<em>am</em><strong>en</strong> heraus","ihr k<em>am</em><strong>t</strong> heraus","Sie k<em>am</em><strong>en</strong> heraus","sie k<em>am</em><strong>en</strong> heraus"];
+var quizConj3 = ["kam heraus","kamst heraus","kam heraus","kamen heraus","kamt heraus","kamen heraus"];
+
+var forConj4 = ["ich werde herauskomm<strong>en</strong>","du wirst herauskomm<strong>en</strong>","er/sie/es wird herauskomm<strong>en</strong>","wir werden herauskomm<strong>en</strong>","ihr werdet herauskomm<strong>en</strong>","Sie werden herauskomm<strong>en</strong>","sie werden herauskomm<strong>en</strong>"];
+var quizConj4 = ["werde herauskommen","wirst herauskommen","wird herauskommen","werden herauskommen","werdet herauskommen","werden herauskommen"];
+
+var forConj5 = ["ich würde herauskomm<strong>en</strong>","du würdest herauskomm<strong>en</strong>","er/sie/es würde herauskomm<strong>en</strong>","wir würden herauskomm<strong>en</strong>","ihr würdet herauskomm<strong>en</strong>","Sie würden herauskomm<strong>en</strong>","sie würden herauskomm<strong>en</strong>"];
+var quizConj5 = ["würde herauskommen","würdest herauskommen","würde herauskommen","würden herauskommen","würdet herauskommen","würden herauskommen"];
+
+var engConj1  = ["I come out","you come out (informal)","he/she/it comes out","we come out","you come out (plural)","you come out (formal)","they come out"];
+var engConj2  = ["I have come out","you have come out(informal)","he/she/it has come out","we have come out","you have come out (plural)","you have come out (formal)","they have come out"];
+var engConj3  = ["I came out","you came out (informal)","he/she/it came out","we came out","you came out (plural)","you came out (formal)","they came out"];
+var engConj4  = ["I will come out","you will come out (informal)","he/she/it will come out","we will come out","you will come out (plural)","you will come out (formal)","they will come out"];
+var engConj5  = ["I would come out","you would come out (informal)","he/she/it would come out","we would come out","you would come out (plural)","you would come out (formal)","they would come out"];
+
+var verbTypeNum = "7";var forConj6 = "Sein";var forConj7 = "heraus + k_m";var pronominal = false;var conjNum = [0,0,1,1,2,2,3,3,4,4,5,5];
+
+var irregReason = ['This verb is strong because the "omm" in the stem changes to "am" in some of the conjugation. The difference are shown in black in this lesson.'];
+var extraNote = 'Some German verbs have separable prefixes. The prefixes change the meaning of the original verb. In some of the conjugation, they are separated from the verb and placed at the end of the sentence. The conjugation itself remains the same.<br><br>E.G. Kommen = To come<br><em style=”opacity: 0;”>E.G.</em> <strong>An</strong>kommen = To arrive';

@@ -1,0 +1,28 @@
+var lessonNumber = 59;var lessonTitle = "Ins Bett gehen (To go to bed)";var forExamples = ["Ins Bett gehen","Ich glaube, es ist Zeit <em>ins Bett</em> zu <strong>gehen</strong>, Mädels!","ich gehe ins Bett","<strong>Ich gehe</strong> jeden Abend um acht Uhr <em>ins Bett</em>.","du bist ins Bett gegangen","<strong>Du bist</strong> letzte Nacht sehr früh <em>ins Bett</em> <strong>gegangen</strong>.","sie ging ins Bett ","Nach ein bisschen Lesen <strong>ging</strong> <em>sie</em> <em>ins Bett</em>.","sie werden ins Bett gehen","Nach der Geschichte <strong>werden sie</strong> <em>ins Bett</em> <strong>gehen</strong>.","wir würden ins Bett gehen","Wenn wir müde wären, <strong>würden wir</strong> <em>ins Bett</em> <strong>gehen</strong>."];var engExamples = ["To go to bed","I believe it's time <em>to go to bed</em> girls!","I go to bed","<em>I go to bed</em> at eight o'clock every evening.","you went to bed","<em>You went to bed</em> very early last night.","she used to go to bed","After a bit of reading, <em>she used to go to bed</em>.","they will go to bed","<em>They will go to bed</em> after the story.","we would go to bed","If we were tired, <em>we would go to bed</em>."];var btnColor = ["#90E700","#254800"];
+
+var forConj1 = ["ich geh<strong>e</strong> ins Bett","du geh<strong>st</strong> ins Bett","er/sie/es geh<strong>t</strong> ins Bett","wir geh<strong>e</strong><strong>n</strong> ins Bett","ihr geh<strong>t</strong> ins Bett","Sie geh<strong>e</strong><strong>n</strong> ins Bett","sie geh<strong>e</strong><strong>n</strong> ins Bett"];
+var quizConj1 = ["gehe ins Bett","gehst ins Bett","geht ins Bett","gehen ins Bett","geht ins Bett","gehen ins Bett"];
+
+var forConj2 = ["ich bin ins Bett <strong>ge</strong>g<em>ang</em><strong>en</strong>","du bist ins Bett <strong>ge</strong>g<em>ang</em><strong>en</strong>","er/sie/es ist ins Bett <strong>ge</strong>g<em>ang</em><strong>en</strong>","wir sind ins Bett <strong>ge</strong>g<em>ang</em><strong>en</strong>","ihr seid ins Bett <strong>ge</strong>g<em>ang</em><strong>en</strong>","Sie sind ins Bett <strong>ge</strong>g<em>ang</em><strong>en</strong>","sie sind ins Bett <strong>ge</strong>g<em>ang</em><strong>en</strong>"];
+var quizConj2 = ["bin ins Bett gegangen","bist ins Bett gegangen","ist ins Bett gegangen","sind ins Bett gegangen","seid ins Bett gegangen","sind ins Bett gegangen"];
+
+var forConj3 = ["ich g<em>ing</em> ins Bett","du g<em>ing</em><strong>st</strong> ins Bett","er/sie/es g<em>ing</em> ins Bett","wir g<em>ing</em><strong>en</strong> ins Bett","ihr g<em>ing</em><strong>t</strong> ins Bett","Sie g<em>ing</em><strong>en</strong> ins Bett","sie g<em>ing</em><strong>en</strong> ins Bett"];
+var quizConj3 = ["ging ins Bett","gingst ins Bett","ging ins Bett","gingen ins Bett","gingt ins Bett","gingen ins Bett"];
+
+var forConj4 = ["ich werde ins Bett geh<strong>e</strong><strong>n</strong>","du wirst ins Bett geh<strong>e</strong><strong>n</strong>","er/sie/es wird ins Bett geh<strong>e</strong><strong>n</strong>","wir werden ins Bett geh<strong>e</strong><strong>n</strong>","ihr werdet ins Bett geh<strong>e</strong><strong>n</strong>","Sie werden ins Bett geh<strong>e</strong><strong>n</strong>","sie werden ins Bett geh<strong>e</strong><strong>n</strong>"];
+var quizConj4 = ["werde ins Bett gehen","wirst ins Bett gehen","wird ins Bett gehen","werden ins Bett gehen","werdet ins Bett gehen","werden ins Bett gehen"];
+
+var forConj5 = ["ich würde ins Bett geh<strong>e</strong><strong>n</strong>","du würdest ins Bett geh<strong>e</strong><strong>n</strong>","er/sie/es würde ins Bett geh<strong>e</strong><strong>n</strong>","wir würden ins Bett geh<strong>e</strong><strong>n</strong>","ihr würdet ins Bett geh<strong>e</strong><strong>n</strong>","Sie würden ins Bett geh<strong>e</strong><strong>n</strong>","sie würden ins Bett geh<strong>e</strong><strong>n</strong>"];
+var quizConj5 = ["würde ins Bett gehen","würdest ins Bett gehen","würde ins Bett gehen","würden ins Bett gehen","würdet ins Bett gehen","würden ins Bett gehen"];
+
+var engConj1  = ["I go to bed","you go to bed ((inf.)","he/she/it goes to bed","we go to bed","you go to bed (p.)","you go to bed (f.)","they go to bed"];
+var engConj2  = ["I went to bed","you went to bed (inf.)","he/she/it went to bed","we went to bed","you went to bed (p.)","you went to bed (f.)","they went to bed"];
+var engConj3  = ["I used to go to bed","you used to go to bed (inf.)","he/she/it used to go to bed","we used to go to bed","you used to go to bed (p.)","you used to go to bed (f.)","they used to go to bed"];
+var engConj4  = ["I will go to bed","you will go to bed (inf.)","he/she/it will go to bed","we will go to bed","you will go to bed (p.)","you will go to bed (f.)","they will go to bed"];
+var engConj5  = ["I would go to bed","you would go to bed (inf.)","he/she/it would go to bed","we would go to bed","you would go to bed (p.)","you would go to bed (f.)","they would go to bed"];
+
+var verbTypeNum = "7";var forConj6 = "Sein";var forConj7 = "G";var pronominal = false;var conjNum = [0,0,1,1,2,2,3,3,4,4,5,5];
+
+var irregReason = ['This verb is strong because the "e" in the stem changes to an "i" or an "a" in some of the conjugation. The "h" in the stem also changes to "ng" in some of the conjugation. The changes are shown in black in this lesson.'];
+
+var extraNote = 'This verb is actually the German verb GEHEN, accompanied by "ins Bett", which means "to bed".';

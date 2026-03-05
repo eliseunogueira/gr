@@ -1,0 +1,27 @@
+var lessonNumber = 57;var lessonTitle = "(sich) Anziehen (To get dressed)";var forExamples = ["(sich) Anziehen","Sie hilft ihrer Tochter, <em>sich</em> <strong>anzuziehen</strong>.","du ziehst (dich) an","<strong>Du ziehst</strong> <em>dich an</em>, aber du würdest lieber schlafen.","ich habe (mich) angezogen","<strong>Ich habe</strong> <em>mich</em> <strong>angezogen</strong>, um zur Arbeit zu gehen, aber ich arbeite heute nicht.","sie zogen (sich) an","<strong>Sie zogen</strong> <em>sich</em> für die Hochzeit <em>an</em>.","wir werden (uns) anziehen","<strong>Wir werden</strong> <em>uns</em> <strong>anziehen</strong>, wenn wir aus dem Haus gehen müssen.","er würde (sich) anziehen","Wenn er eine Krawatte binden könnte, <strong>würde er</strong> <em>sich</em> selbst <strong>anziehen</strong>."];var engExamples = ["To get dressed","She is helping her daughter <em>to get dressed</em>.","you are getting dressed","<em>You are getting dressed</em>, but you would prefer sleeping.","I got dressed","<em>I got dressed</em> to go to work, but I don't work today.","they were getting dressed","<em>They were getting dressed</em> for the wedding.","we will get dressed","<em>We will get dressed</em> when we have to get out of the house.","he would get dressed","If he knew how to tie a tie, <em>he would get dressed</em> by himself."];var btnColor = ["#FFC400","#BB0A00"];
+
+var forConj1 = ["ich zieh<strong>e</strong> an","du zieh<strong>st</strong> an","er/sie/es zieh<strong>t</strong> an","wir zieh<strong>e</strong><strong>n</strong> an","ihr zieh<strong>t</strong> an","Sie zieh<strong>e</strong><strong>n</strong> an","sie zieh<strong>e</strong><strong>n</strong> an"];
+var quizConj1 = ["ziehe an","ziehst an","zieht an","ziehen an","zieht an","ziehen an"];
+
+var forConj2 = ["ich habe an<strong>ge</strong>z<em>og</em><strong>en</strong>","du hast an<strong>ge</strong>z<em>og</em><strong>en</strong>","er/sie/es hat an<strong>ge</strong>z<em>og</em><strong>en</strong>","wir haben an<strong>ge</strong>z<em>og</em><strong>en</strong>","ihr habt an<strong>ge</strong>z<em>og</em><strong>en</strong>","Sie haben an<strong>ge</strong>z<em>og</em><strong>en</strong>","sie haben an<strong>ge</strong>z<em>og</em><strong>en</strong>"];
+var quizConj2 = ["habe angezogen","hast angezogen","hat angezogen","haben angezogen","habt angezogen","haben angezogen"];
+
+var forConj3 = ["ich z<em>og</em> an","du z<em>og</em><strong>st</strong> an","er/sie/es z<em>og</em> an","wir z<em>og</em><strong>en</strong> an","ihr z<em>og</em><strong>t</strong> an","Sie z<em>og</em><strong>en</strong> an","sie z<em>og</em><strong>en</strong> an"];
+var quizConj3 = ["zog an","zogst an","zog an","zogen an","zogt an","zogen an"];
+
+var forConj4 = ["ich werde anzieh<strong>e</strong><strong>n</strong>","du wirst anzieh<strong>e</strong><strong>n</strong>","er/sie/es wird anzieh<strong>e</strong><strong>n</strong>","wir werden anzieh<strong>e</strong><strong>n</strong>","ihr werdet anzieh<strong>e</strong><strong>n</strong>","Sie werden anzieh<strong>e</strong><strong>n</strong>","sie werden anzieh<strong>e</strong><strong>n</strong>"];
+var quizConj4 = ["werde anziehen","wirst anziehen","wird anziehen","werden anziehen","werdet anziehen","werden anziehen"];
+
+var forConj5 = ["ich würde anzieh<strong>e</strong><strong>n</strong>","du würdest anzieh<strong>e</strong><strong>n</strong>","er/sie/es würde anzieh<strong>e</strong><strong>n</strong>","wir würden anzieh<strong>e</strong><strong>n</strong>","ihr würdet anzieh<strong>e</strong><strong>n</strong>","Sie würden anzieh<strong>e</strong><strong>n</strong>","sie würden anzieh<strong>e</strong><strong>n</strong>"];
+var quizConj5 = ["würde anziehen","würdest anziehen","würde anziehen","würden anziehen","würdet anziehen","würden anziehen"];
+
+var engConj1  = ["I am getting dressed","you are getting dressed (inf.)","he/she/it is getting dressed","we are getting dressed","you are getting dressed (p.)","you are getting dressed (f.)","they are getting dressed"];
+var engConj2  = ["I got dressed","you got dressed (inf.)","he/she/it got dressed","we got dressed","you got dressed (p.)","you got dressed (f.)","they got dressed"];
+var engConj3  = ["I was getting dressed","you were getting dressed (inf.)","he/she/it was getting dressed","we were getting dressed","you were getting dressed (p.)","you were getting dressed (f.)","they were getting dressed"];
+var engConj4  = ["I will get dressed","you will get dressed (inf.)","he/she/it will get dressed","we will get dressed","you will get dressed (p.)","you will get dressed (f.)","they will get dressed"];
+var engConj5  = ["I would get dressed","you would get dressed (inf.)","he/she/it would get dressed","we would get dressed","you would get dressed (p.)","you would get dressed (f.)","they would get dressed"];
+
+var verbTypeNum = "7";var forConj6 = "Haben";var forConj7 = "Z";var pronominal = true;var conjNum = [0,0,1,1,2,2,3,3,4,4,5,5];
+
+var irregReason = ['This verb is strong because the "ieh" in the stem changes to "og" in some of the conjugation. The change is shown in black in this lesson.'];
+var extraNote = 'Some German verbs have separable prefixes. The prefixes change the meaning of the original verb. In some of the conjugation, they are separated from the verb and placed at the end of the sentence. The conjugation itself remains the same.<br><br>E.G. Kommen = To come<br><em style=”opacity: 0;”>E.G.</em> <strong>An</strong>kommen = To arrive';
